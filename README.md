@@ -1,16 +1,124 @@
-# React + Vite
+# 📌 **Personal Task List Management System**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and fully interactive **Task Management Application** designed to help users organize and manage daily tasks with ease. Built using cutting-edge frontend tools, this application provides a smooth drag-and-drop experience and a clean, elegant UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 **Project Links**
 
-## React Compiler
+| Resource          | Link                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| 📂 **Repository** | [View on GitHub](https://github.com/soumyadip-adak99/Personal_Task_List_Management_System) |
+| 🚀 **Live Demo**  | [Open Application](https://taskmanager-one-wine.vercel.app/)                               |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ **Features**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✔️ Drag & Drop Task Management
+
+Powered by **@dnd-kit**, enabling smooth and intuitive task rearrangement.
+
+### ✔️ Centralized State Management
+
+Uses **Redux Toolkit** for predictable, scalable state handling.
+
+### ✔️ Modern & Responsive UI
+
+Built with **Tailwind CSS v4** ensuring pixel-perfect, mobile-friendly layouts.
+
+### ✔️ Real-Time Notifications
+
+Integrated **react-hot-toast** for clean and instant feedback.
+
+### ✔️ High Performance
+
+Crafted with **Vite** for ultra-fast bundling and development experiences.
+
+### ✔️ Clean Icon Set
+
+Uses **lucide-react** for consistent and modern icons.
+
+---
+
+## 🛠️ **Tech Stack**
+
+### **Frontend**
+
+-   ⚛️ React 19
+-   ⚡ Vite
+-   🌀 Redux Toolkit
+-   🧩 @dnd-kit (Drag & Drop)
+
+### **Styling & UI**
+
+-   🎨 Tailwind CSS
+-   🖼️ Lucide React Icons
+
+### **Utilities**
+
+-   🔥 React Hot Toast
+-   🧹 ESLint
+
+---
+
+## 🚀 **Getting Started**
+
+Follow these steps to run the project locally:
+
+### **Prerequisites**
+
+Ensure you have **Node.js** and **npm** installed.
+
+### **Installation**
+
+```bash
+# Clone the repository
+git clone https://github.com/soumyadip-adak99/Personal_Task_List_Management_System.git
+
+# Navigate to the project
+cd Personal_Task_List_Management_System
+
+# Install dependencies
+npm install
+```
+
+### **Start Development Server**
+
+```bash
+npm run dev
+```
+
+Now open your browser and visit:
+
+👉 [http://localhost:5173](http://localhost:5173)
+(or the port shown in your terminal)
+
+---
+
+## 📜 **Available Scripts**
+
+| Command           | Description                        |
+| ----------------- | ---------------------------------- |
+| `npm run dev`     | Start development server           |
+| `npm run build`   | Create production build            |
+| `npm run preview` | Preview production build locally   |
+| `npm run lint`    | Run ESLint for code quality checks |
+
+---
+
+## 👤 **Author**
+
+**Soumyadip Adak**
+GitHub: [@soumyadip-adak99](https://github.com/soumyadip-adak99)
+
+---
+
+## ⭐ **Show Your Support**
+
+If you like this project, please ⭐ the repository!
+Your support motivates further improvements.
+
+---
+
+Enjoy organizing your tasks with ease! 🚀
